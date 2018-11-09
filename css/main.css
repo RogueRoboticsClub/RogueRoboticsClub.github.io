@@ -64,6 +64,30 @@ h2 {
   padding-bottom: 30px;
 }
 
+.section a {
+  color: teal;
+}
+
+.sponsors-wrap {
+  text-align: center;
+}
+
+.sponsors-wrap a {
+  text-decoration: none;
+}
+
+.sponsor {
+  width: 200px;
+  filter: grayscale(100%);
+  transition: .3s ease-in all;
+  padding: 20px;
+  vertical-align: middle;
+}
+
+.sponsor:hover {
+  filter: none;
+}
+
 footer {
   background-color: teal;
   padding: 50px 15px;
