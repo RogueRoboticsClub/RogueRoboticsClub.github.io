@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans";
+}
+
+nav ul {
+  list-style-type: none;
+  display: block;
+  height: 50px;
+}
+
+nav li {
+  float: right;
+  padding: 10px 20px;
+  font-weight: 300;
+}
+
+nav li a {
+  color: gray;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  color: teal;
+  text-decoration: underline;
+}
+
+.name {
+  font-weight: 300;
+  font-size: 500%;
+  display: block;
+  text-align: center;
+  padding: 10px 0;
+}
+
+#logo {
+  width: 250px;
+  display: block;
+  margin: 0 auto;
+}
+
+#wave {
+  /* TODO: figure out image scaling stuff */
+  width: 100%;
+  margin-top: 10px;
+}
+
+h2 {
+  font-weight: 300;
+  display: block;
+  text-align: center;
+}
+
+#tagline {
+  top: -150px;
+  position: relative;
+}
+
+.section {
+  max-width: 600px;
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+
+footer {
+  background-color: teal;
+  padding: 50px 15px;
+  color: white;
+}
