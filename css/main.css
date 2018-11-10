@@ -61,7 +61,7 @@ h2 {
   max-width: 600px;
   display: block;
   margin: 0 auto;
-  padding-bottom: 30px;
+  padding-bottom: 100px;
 }
 
 .section a {
@@ -86,6 +86,12 @@ h2 {
 
 .sponsor:hover {
   filter: none;
+}
+
+hr {
+  background-color: black;
+  border: none;
+  height: 2px;
 }
 
 footer {
